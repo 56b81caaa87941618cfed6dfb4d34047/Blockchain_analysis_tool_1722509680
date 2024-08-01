@@ -3,11 +3,11 @@ It has two buttons: Contact button that directs to the contact page and Pay butt
 */
 Vue.component("bottom_bar_component_1722510415", {
     template: `
-    <section id="bottom-bar-component" class="fixed bottom-0 z-30 w-full lg:w-1/2 !bg-opacity-80 backdrop-blur-sm bg-white dark:bg-slate-950">
+    <section id="bottom-bar-component" class="fixed bottom-0 z-30 w-full lg:w-1/2 bg-opacity-30 backdrop-blur-lg bg-gradient-to-r from-pink-400 to-purple-600">
         <div id="bottom-bar-component-content" class="w-full max-w-xl mx-auto px-4 sm:px-6">
             <div id="action-buttons" class="flex py-4 md:py-6 space-x-4 justify-center">
-                <a id="contact-button" class="btn flex items-center justify-center w-1/2 h-12 p-3 text-slate-900 dark:text-slate-200 dark:bg-slate-900 rounded-lg hover:border-slate-300 dark:border-slate-800 dark:hover:border-slate-700 border shadow-lg transition duration-200 ease-in-out" href="contact.html">Contact</a>
-                <a id="pay-button" class="btn flex items-center justify-center w-1/2 h-12 p-3 animate-shine bg-[size:200%_100%] hover:bg-[image:none] transition duration-200 ease-in-out shadow-lg text-white bg-blue-500 hover:bg-blue-600 rounded-lg bg-[linear-gradient(100deg, theme(colors.blue.500), 45%, theme(colors.blue.400), 55%, theme(colors.blue.500))] rounded-lg">Pay</a>
+                <a id="contact-button" class="btn flex items-center justify-center w-1/2 h-12 p-3 text-white font-semibold rounded-lg border border-white border-opacity-30 bg-white bg-opacity-20 hover:bg-opacity-30 shadow-lg transition duration-200 ease-in-out" href="contact.html">Contact</a>
+                <a id="pay-button" class="btn flex items-center justify-center w-1/2 h-12 p-3 animate-shine bg-[size:200%_100%] hover:bg-opacity-80 transition duration-200 ease-in-out shadow-lg text-white font-semibold bg-gradient-to-r from-pink-500 to-purple-600 rounded-lg">Pay</a>
             </div>
         </div>
     </section>
